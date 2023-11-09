@@ -1,4 +1,4 @@
-List<String> categoriesThatSupportNamespace = new List<String>{'code','emailTemplate','validationRule','permissionSets','workflowElement'};
+List<String> categoriesThatSupportNamespace = new List<String>{'code','emailTemplate','validationRule','permissionSets','workflowElement','flexipage'};
 
 Map<String,String> friendlyNameByCategory = new Map<String,String>();
 friendlyNameByCategory.put('code','Apex, LWC and Aura');
