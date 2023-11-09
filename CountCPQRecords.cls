@@ -70,4 +70,4 @@ for (String objName: cpqObjects) {
 product2CountInactive = Database.countQuery('SELECT count() FROM Product2 where IsActive=False');
 
 System.debug('TOTAL CPQ RECORDS: ' + totalRecordCount);
-System.debug('Out of '+product2Count+' Product2 records, '+product2CountInactive+' are inactive (IsActive = false)');
+System.debug('Out of '+product2Count+' Product2 records, '+product2CountInactive+' are inactive (IsActive = false). You can remove inactive Products from the Salto environment by using the following config: saltoManagementFieldSettings = {defaultFieldName = "IsActive"}');
