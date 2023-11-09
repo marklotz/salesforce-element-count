@@ -27,7 +27,7 @@ typesByCategory.put('permissionSets',new List<String>{'PermissionSet'});
 typesByCategory.put('workflowElement',new List<String>{'WorkflowAlert','WorkflowFieldUpdate','WorkflowRule','WorkflowOutboundMessage','WorkflowTask'});
 typesByCategory.put('validationRule',new List<String>{'ValidationRule'});
 typesByCategory.put('emailTemplate',new List<String>{'EmailTemplate'});
-typesByCategory.put('flow',new List<String>{'Flow'});
+typesByCategory.put('flow',new List<String>{'FlowDefinition'});
 typesByCategory.put('flexipage',new List<String>{'FlexiPage'});
                     
 for(String category : typesByCategory.keySet()){
